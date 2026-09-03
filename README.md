@@ -48,9 +48,9 @@ Quota, plan, and billing checks remain in the existing API. A successful OAuth c
 - Check this export and tell me whether it is ready.
 - Get channel details for this YouTube channel.
 
-## Development
+## Maintenance
 
-The MCP endpoint is implemented in `api/src/routes/mcp`. Enable it in a deployment with `MCP_ENABLED=true`. Create the PocketBase collection before enabling the endpoint:
+This repository contains only the installable plugin package. The hosted MCP adapter remains in the main YouTube Comments Downloader application and consumes its existing API, exports, queues, PocketBase, and Redis services. The deployment that serves the endpoint must enable `MCP_ENABLED=true` and create the PocketBase collection before enabling it:
 
 ```bash
 cd web
@@ -61,11 +61,9 @@ The collection is server-only. OAuth codes and tokens are stored only as SHA-256
 
 ## Publishing checklist
 
-1. Confirm the GitHub organization and create the public `youtube-comments-downloader-mcp` repository.
-2. Copy this directory without the monorepo history.
-3. Replace the xAI marketplace placeholder with the full lowercase commit SHA of the public repository.
-4. Validate the Codex manifest and test the remote OAuth flow with a reviewer account.
-5. Submit the package to each marketplace using the links in the documentation page.
+1. Pin the public repository commit in the xAI marketplace catalog.
+2. Validate the Codex manifest and test the remote OAuth flow with a reviewer account.
+3. Submit the package to each marketplace using the links in the documentation page.
 
 ## License
 
