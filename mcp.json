@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "youtube-comments-downloader": {
+      "type": "http",
+      "url": "https://api.youtubecommentsdownloader.com/mcp"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "name": "youtube-comments-downloader-mcp",
+  "version": "0.1.0",
+  "description": "Use YouTube Comments Downloader exports and research tools from an MCP-compatible AI client.",
+  "author": {
+    "name": "YouTube Comments Downloader",
+    "url": "https://youtubecommentsdownloader.com"
+  },
+  "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
+  "repository": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp",
+  "license": "MIT",
+  "keywords": ["youtube", "comments", "research", "export", "mcp"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "YouTube Comments Downloader",
+    "shortDescription": "Export and research YouTube comments from your AI client.",
+    "longDescription": "Create and monitor YouTube comment exports, retrieve public export file URLs, and run channel details or community image research through the existing YouTube Comments Downloader API.",
+    "developerName": "YouTube Comments Downloader",
+    "category": "Productivity",
+    "capabilities": ["Interactive", "Read"],
+    "websiteURL": "https://youtubecommentsdownloader.com/tools/mcp",
+    "privacyPolicyURL": "https://youtubecommentsdownloader.com/legal/privacy-policy",
+    "termsOfServiceURL": "https://youtubecommentsdownloader.com/legal/terms-of-service",
+    "defaultPrompt": [
+      "Export the comments from this YouTube video to JSON.",
+      "Check my latest YouTube export and give me its file URL.",
+      "Research this YouTube channel's details and audience context."
+    ],
+    "brandColor": "#157A61",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png",
+    "logoDark": "./assets/logo-dark.png",
+    "screenshots": [
+      "./assets/screenshot-mcp.png",
+      "./assets/screenshot-install.png",
+      "./assets/screenshot-docs.png"
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

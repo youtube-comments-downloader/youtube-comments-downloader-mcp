@@ -1,0 +1,14 @@
+{
+  "name": "youtube-comments-downloader-mcp",
+  "version": "0.1.0",
+  "description": "Use YouTube Comments Downloader exports and research tools from Cursor.",
+  "author": {
+    "name": "YouTube Comments Downloader",
+    "url": "https://youtubecommentsdownloader.com"
+  },
+  "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
+  "repository": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp",
+  "license": "MIT",
+  "keywords": ["youtube", "comments", "research", "export", "mcp"],
+  "mcpServers": "../mcp.json"
+}
