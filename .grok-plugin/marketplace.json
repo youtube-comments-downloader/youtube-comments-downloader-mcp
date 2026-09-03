@@ -5,7 +5,7 @@
   "source": {
     "source": "url",
     "url": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp",
-    "sha": "REPLACE_AFTER_PUBLIC_REPOSITORY_RELEASE"
+    "sha": "6a76fa3fa7550edc054a01c79d0e88c1322c2b39"
   },
   "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
   "keywords": [
