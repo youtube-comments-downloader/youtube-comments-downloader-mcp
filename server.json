@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.youtube-comments-downloader/youtube-comments-downloader-mcp",
+  "title": "YouTube Comments Downloader",
+  "description": "Export YouTube comments and transcripts, track downloads, and get JSON or CSV file URLs.",
+  "version": "0.4.0",
+  "websiteUrl": "https://youtubecommentsdownloader.com/tools/mcp",
+  "repository": {
+    "url": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp",
+    "source": "github",
+    "id": "1355948313"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.youtubecommentsdownloader.com/mcp",
+      "headers": [
+        {
+          "name": "x-api-key",
+          "description": "Optional YouTube Comments Downloader API key. Create one in the API keys dashboard. Leave it empty to sign in with OAuth 2.1 instead.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}

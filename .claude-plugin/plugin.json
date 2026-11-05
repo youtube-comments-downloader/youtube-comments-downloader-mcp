@@ -1,0 +1,16 @@
+{
+  "name": "youtube-comments-downloader-mcp",
+  "displayName": "YouTube Comments Downloader",
+  "version": "0.4.0",
+  "description": "Use YouTube Comments Downloader exports and research tools from an MCP-compatible AI client.",
+  "author": {
+    "name": "YouTube Comments Downloader",
+    "url": "https://youtubecommentsdownloader.com"
+  },
+  "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
+  "repository": "https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp",
+  "license": "MIT",
+  "privacyPolicyUrl": "https://youtubecommentsdownloader.com/legal/privacy-policy",
+  "termsOfServiceUrl": "https://youtubecommentsdownloader.com/legal/terms-of-service",
+  "keywords": ["youtube", "comments", "research", "export", "mcp"]
+}

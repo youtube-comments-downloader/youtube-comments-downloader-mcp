@@ -4,11 +4,11 @@ Use YouTube Comments Downloader from an MCP-compatible AI client. The server is 
 
 ## What it can do
 
-- Create video, Short, live, playlist, channel, community, and bulk comment exports.
-- Check and list existing exports.
-- Return the existing public-by-ID export URL in JSON, CSV, HTML, XLSX, TXT, or ZIP format.
-- Cancel or restart an existing export.
-- Run the existing channel-details and community-images tools.
+- Download comments from videos, Shorts, live streams, playlists, channels, and community posts.
+- Check and list your downloads.
+- Get the download file in JSON, CSV, HTML, XLSX, TXT, or ZIP format.
+- Get video transcripts.
+- Get channel details.
 
 There is intentionally no `search_youtube_comments` tool in v1 because the main API does not yet expose a matching endpoint.
 
@@ -33,24 +33,38 @@ For Cursor and compatible JSON clients, add:
 }
 ```
 
+For Claude Code, add the marketplace and install the plugin:
+
+```text
+/plugin marketplace add youtube-comments-downloader/youtube-comments-downloader-mcp
+/plugin install youtube-comments-downloader-mcp@youtube-comments-downloader
+```
+
+For Gemini CLI:
+
+```bash
+gemini extensions install https://github.com/youtube-comments-downloader/youtube-comments-downloader-mcp
+```
+
 Open the [installation configurator](https://youtubecommentsdownloader.com/tools/mcp/install) for platform-specific steps.
 
 ## Authentication
 
 OAuth 2.1 with PKCE S256 is the default for clients that support remote MCP authorization. The server also accepts an existing YCD API key in the `x-api-key` header. API keys are created in the [API keys dashboard](https://youtubecommentsdownloader.com/dashboard/api-keys).
 
-Quota, plan, and billing checks remain in the existing API. A successful OAuth connection does not bypass product usage rules.
+Credits are charged by the existing API, the same as in the app.
 
 ## Example prompts
 
-- Export comments from this YouTube video and give me the JSON download URL.
-- List my latest finished exports.
-- Check this export and tell me whether it is ready.
+- Download the comments from this YouTube video and give me the JSON file URL.
+- List my latest finished downloads.
+- Check this download and tell me whether it is ready.
+- Get the transcript of this video and summarize it.
 - Get channel details for this YouTube channel.
 
 ## Maintenance
 
-This repository contains only the installable plugin package. The hosted MCP adapter remains in the main YouTube Comments Downloader application and consumes its existing API, exports, queues, PocketBase, and Redis services. The deployment that serves the endpoint must enable `MCP_ENABLED=true` and create the PocketBase collection before enabling it:
+This repository contains only the installable plugin package. The hosted MCP adapter remains in the main YouTube Comments Downloader application and consumes its existing API, exports, queues, PocketBase, and Redis services. The deployment that serves the endpoint must run the YCD API and have the PocketBase collection created:
 
 ```bash
 cd web

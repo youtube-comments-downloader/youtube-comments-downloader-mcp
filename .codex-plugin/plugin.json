@@ -1,6 +1,6 @@
 {
   "name": "youtube-comments-downloader-mcp",
-  "version": "0.1.0",
+  "version": "0.4.0",
   "description": "Use YouTube Comments Downloader exports and research tools from an MCP-compatible AI client.",
   "author": {
     "name": "YouTube Comments Downloader",
@@ -14,7 +14,7 @@
   "interface": {
     "displayName": "YouTube Comments Downloader",
     "shortDescription": "Export and research YouTube comments from your AI client.",
-    "longDescription": "Create and monitor YouTube comment exports, retrieve public export file URLs, and run channel details or community image research through the existing YouTube Comments Downloader API.",
+    "longDescription": "Download YouTube comments and transcripts, follow download progress, get files in JSON, CSV, and other formats, and look up channel details.",
     "developerName": "YouTube Comments Downloader",
     "category": "Productivity",
     "capabilities": ["Interactive", "Read"],
@@ -23,7 +23,7 @@
     "termsOfServiceURL": "https://youtubecommentsdownloader.com/legal/terms-of-service",
     "defaultPrompt": [
       "Export the comments from this YouTube video to JSON.",
-      "Check my latest YouTube export and give me its file URL.",
+      "Check my latest YouTube download and give me its file URL.",
       "Research this YouTube channel's details and audience context."
     ],
     "brandColor": "#157A61",
