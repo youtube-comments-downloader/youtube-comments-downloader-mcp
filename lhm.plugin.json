@@ -1,0 +1,17 @@
+{
+  "identifier": "youtube-comments-downloader-mcp",
+  "name": "YouTube Comments Downloader",
+  "version": "0.4.0",
+  "author": "YouTube Comments Downloader",
+  "authorUrl": "https://youtubecommentsdownloader.com",
+  "homepage": "https://youtubecommentsdownloader.com/tools/mcp",
+  "cloudEndpoint": "https://api.youtubecommentsdownloader.com/mcp",
+  "description": "Remote MCP server for downloading YouTube comments and transcripts and looking up channel details from Claude, ChatGPT, Cursor, Codex and other MCP clients.",
+  "tags": [
+    "youtube",
+    "youtube-comments",
+    "transcripts",
+    "remote-mcp",
+    "oauth"
+  ]
+}

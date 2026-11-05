@@ -4,6 +4,7 @@
 
 - Added registry manifests for the Official MCP Registry, Glama, Claude Code and Gemini CLI.
 - Added a Claude Code marketplace entry so the plugin installs by name.
+- Added `lhm.plugin.json` for the LobeHub MCP marketplace.
 
 ## 0.3.0
 
