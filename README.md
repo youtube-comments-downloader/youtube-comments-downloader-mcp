@@ -1,3 +1,5 @@
+[![YouTube Comments Downloader MCP on AI Agents Listing](https://aiagentslisting.com/youtube-comments-downloader-mcp/badge.svg?claim=6f0707344e287de53622e17444b02a94)](https://aiagentslisting.com/mcp/youtube-comments-downloader-mcp)
+
 # YouTube Comments Downloader MCP
 
 Use YouTube Comments Downloader from an MCP-compatible AI client. The server is a thin adapter over the existing YouTube Comments Downloader API: it does not create a second export system, export storage layer, queue, or file format.
