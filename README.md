@@ -1,4 +1,4 @@
-[![YouTube Comments Downloader MCP on AI Agents Listing](https://aiagentslisting.com/youtube-comments-downloader-mcp/badge.svg?claim=6f0707344e287de53622e17444b02a94)](https://aiagentslisting.com/mcp/youtube-comments-downloader-mcp)
+[![YouTube Comments Downloader MCP on AI Agents Listing](https://aiagentslisting.com/youtube-comments-downloader-mcp/badge.svg?claim=6f0707344e287de53622e17444b02a94)](https://aiagentslisting.com/mcp/youtube-comments-downloader-mcp) [![YouTube Comments Downloader — Top Ranked on ToolPotion.ai](<https://toolpotion.ai/badge/35679/top-ranked-detailed-gradient.svg>)](<https://toolpotion.ai/en/ai-apps/youtube-comments-downloader?utm_source=toolpotion&utm_medium=badge&utm_campaign=top-ranked>)
 
 # YouTube Comments Downloader MCP
 
