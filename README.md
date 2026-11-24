@@ -1,4 +1,5 @@
 [![YouTube Comments Downloader MCP on AI Agents Listing](https://aiagentslisting.com/youtube-comments-downloader-mcp/badge.svg?claim=6f0707344e287de53622e17444b02a94)](https://aiagentslisting.com/mcp/youtube-comments-downloader-mcp)
+[![YouTube Comments Downloader MCP connector](https://glama.ai/mcp/connectors/io.github.youtube-comments-downloader/youtube-comments-downloader-mcp/badges/score.svg)](https://glama.ai/mcp/connectors/io.github.youtube-comments-downloader/youtube-comments-downloader-mcp)
 
 # YouTube Comments Downloader MCP
 
